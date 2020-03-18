@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/yaxollum
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pter.cf
+  * I am yaxollum (https://keybase.io/yaxollum) on keybase.
+  * I have a public key ASCyOlojW5A35s0u9hhTu6qPDum3ZIFwA4T0WedjtUgpogo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b23a5a235b9037e6cd2ef61853bbaa8f0ee9b76481700384f459e763b54829a20a",
+      "host": "keybase.io",
+      "kid": "0120b23a5a235b9037e6cd2ef61853bbaa8f0ee9b76481700384f459e763b54829a20a",
+      "uid": "67a083660a64da6fee6e7d84a54aab19",
+      "username": "yaxollum"
+    },
+    "merkle_root": {
+      "ctime": 1584493007,
+      "hash": "e37cc7a6a03a24c010b7df5fc0c178e0aaaaf65763f71d3a5e27d44956bc10824badbc4ff2e5699f46ba917f1f5f04ae638162dc1fdacb7aca0647a9d6035dc4",
+      "hash_meta": "34d5e378b283941f19f0e02a34db88856bfcd861b78874e7fcceef86a42862aa",
+      "seqno": 15452568
+    },
+    "service": {
+      "entropy": "4W3ymjyQAzNRgkn4Az0XEERm",
+      "hostname": "pter.cf",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1584493047,
+  "expire_in": 504576000,
+  "prev": "9310300c16ca5344ac7b5f8b4da3b5717478ab344acfab4fb4068dbff2e23fdd",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsjpaI1uQN+bNLvYYU7uqjw7pt2SBcAOE9FnnY7VIKaIKp3BheWxvYWTESpcCEcQgkxAwDBbKU0Sse1+LTaO1cXR4qzRKz6tPtAaNv/LiP93EIOnVD7YygJ40ifgXTWYuQzJVtSn9ex7oH47xSi7ViunKAgHCo3NpZ8RA4dYp+dKGIhvNCZhY2kRKM/W6DS0GbvWW+IxGqt6a90rvv2y+b589NkAPj2hdKmkQ95m1tCwtFBRdDpu99OHxAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILyTHNcUu2aPdlRvdhgwZiD/BVgzI5y54cwouKp1mQZao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yaxollum
+
+==================================================================
