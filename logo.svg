@@ -1,0 +1,85 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="200" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect
+     x="0"
+     y="0"
+     width="200"
+     height="200"
+     fill="skyblue" />
+  <path
+     d="M 52 24  L 72 15  L 104 24 L 148 46 L 119 72 L 117 62 z"
+     fill="white" />
+  <path
+     d="M 148 46 L 162 73 L 168 118 L 153 165 H 137 V 150 L 119 72 z"
+     fill="yellow"
+     stroke="yellow"
+     stroke-width="5" />
+  <path
+     d="M 119 72 v 80 l 10 -60 z"
+     fill="yellow"
+     stroke="yellow"
+     stroke-width="5" />
+  <ellipse
+     cx="145"
+     cy="168"
+     rx="10"
+     ry="5"
+     fill="saddlebrown" />
+  <path
+     d="M 86 12 l 2 -4 l -10 20"
+     stroke="#999999" />
+  <path
+     d="M 35 95 Q 15 60 45 55 Q 88 50 86 12"
+     fill="none"
+     stroke="red" />
+  <path
+     d="M 175 90 l 4 -2 l -20 10"
+     stroke="#999999" />
+  <path
+     d="M 66 94 Q 85 40 122 104 Q 145 140 175 90"
+     fill="none"
+     stroke="blue" />
+  <rect
+     x="20"
+     y="90"
+     width="60"
+     height="60"
+     fill="#000000" />
+  <circle
+     cx="50"
+     cy="120"
+     r="24"
+     fill="none"
+     stroke="greenyellow"
+     stroke-width="4" />
+  <ellipse
+     cx="53.078"
+     cy="111.543"
+     rx="3"
+     ry="9"
+     fill="#888888"
+     transform="rotate(20,53.078,111.543)" />
+  <ellipse
+     cx="55.785"
+     cy="126.894"
+     rx="3"
+     ry="9"
+     fill="#888888"
+     transform="rotate(140,55.785,126.894)" />
+  <ellipse
+     cx="41.137"
+     cy="121.563"
+     rx="3"
+     ry="9"
+     fill="#888888"
+     transform="rotate(260,41.137,121.563)" />
+  <circle
+     cx="50"
+     cy="120"
+     r="4"
+     fill="#999999" />
+
+</svg>
