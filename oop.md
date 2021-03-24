@@ -49,3 +49,20 @@ Now we can test our `Task` class in a main method in a separate file called `Tes
 ```java
 {% include_relative programs/basic_task/with_constructor/TestTask.java %}
 ```
+
+# Encapsulation
+
+**Encapsulation** is the restriction of access to an object's data. Java offers different access modifiers to specify how much you want to restrict access. 
+
+The four different levels of access are: `public`, `private`, `protected`, and *package-private*. Note that *package-private* is not an actual keyword; it's just the default access level when no modifier is explicitly specified.
+
+From [Oracle's Java OOP Tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html):
+
+|Modifier|Class|Package|Subclass|World|
+|--------|-----|-------|--------|-----|
+|`public`|y|y|y|y|
+|`protected`|y|y|y|n|
+|*no modifier (package-private)*|y|y|n|n|
+|`private`|y|n|n|n|
+
+Currently, in our `Task` class, none of the attributes or methods have explicit access modifiers, so they are all *package-private*.
