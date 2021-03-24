@@ -26,28 +26,26 @@ Here are some methods that can be applied to a task object
 - Update completion (increase the percentage complete by a specific amount)
 
 ## Code
-In Java, an object is created using a class. A class is a template for an object that specifies all of its attributes and defines all of its methods. For this example, here is what a basic Task class looks like in Java:
+In Java, an object is created using a class. A class is a template for an object that specifies all of its attributes and defines all of its methods. Java classes are written in a file with the same name as the class name, but with `.java` appended to the end. For this example, here is what a basic `Task` class looks like in Java (this class should be written in a file called `Task.java`:
 
 ```java
-public class Task {
-    String name;
-    int duration; // time required in seconds
-    int priority; // on a scale from 1 to 10, 1 being the highest priority
-    double percentageComplete;
+{% include_relative programs/basic_task/Task.java %}
+```
 
-    void extendDuration(int extensionAmount) {
-        duration+=extensionAmount;
-    }
+# Constructing an object
 
-    void bumpPriority() {
-        ++priority;
-    }
+The process of creating an object from a class is known as **instantiation**. Instantiation involves allocating a region of computer memory for an object, setting the initial values for an object's attributes, and performing any other necessary tasks (e.g. opening a file or network stream).
 
-    void updateCompletion(double percentageIncrease) {
-        percentageComplete+=percentageIncrease;
-        if(percentageComplete>100) {
-            percentageComplete=100;
-        }
-    }
-}
+In Java, instantiation is done by calling the **constructor** of a class. A constructor is a special method whose purpose is to initialize the object. It must be defined with the same name as the class. In our previous `Task` class example, this is what its constructor would look like:
+
+```java
+{% include_relative programs/basic_task/with_constructor/Task.java %}
+```
+
+The `Task()` method is the constructor which initializes all of the attributes to default values.
+
+Now we can test our `Task` class in a main method in a separate file called `TestTask.java`:
+
+```java
+{% include_relative programs/basic_task/with_constructor/TestTask.java %}
 ```
