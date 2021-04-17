@@ -1,0 +1,6 @@
+public static void printTask(Task t) {
+    System.out.println("Name: " + t.getName());
+    System.out.println("Duration: " + t.getDuration());
+    System.out.println("Priority: " + t.getPriority());
+    System.out.printf("%.1f%% complete\n", t.getPercentage());
+}

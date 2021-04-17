@@ -66,3 +66,21 @@ From [Oracle's Java OOP Tutorial](https://docs.oracle.com/javase/tutorial/java/j
 |`private`|y|n|n|n|
 
 Currently, in our `Task` class, none of the attributes or methods have explicit access modifiers, so they are all *package-private*.
+
+The idea of encapsulation involves hiding all of the fields as `private`, and making methods `public`. This ensures that any code which uses `Task` objects outside of the class won't incorrectly modify the object's data (e.g. by setting `duration` to a negative number).
+
+Now that the members are private, we will need **accessors** to allow them to be read outside of the class. In this case, each member variable should have its own accessor: `getName` for `name`, `getDuration` for `duration`, `getPriority` for `priority`, and `getPercentage` for `percentage`.
+
+```java
+{% include_relative programs/basic_task/with_encapsulation/Task.java %}
+```
+
+The `printTask()` method in the `TestTask` program needs to be modified to use the accessor methods instead of accessing the fields directly:
+
+```java
+{% include_relative programs/basic_task/with_encapsulation/printTask %}
+```
+
+# Conclusion
+
+This concludes my tutorial about object-oriented programming. To summarize, OOP allows you to represent problems as objects. Objects provide an effective way to structure your programs. OOP introduces the concept of encapsulation, where objects hide their implementation details by only allowing access to their data through a public interface. Encapsulation can help prevent bugs, since all accesses to the objects can be checked for correctness and consistency.
