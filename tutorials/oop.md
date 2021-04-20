@@ -1,7 +1,6 @@
 ---
 layout: default
 title: OOP
-permalink: /oop/
 ---
 
 # What is OOP?

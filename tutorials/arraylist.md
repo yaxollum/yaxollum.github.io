@@ -1,7 +1,6 @@
 ---
 layout: default
 title: ArrayList
-permalink: /arraylist/
 ---
 
 In addition to arrays, Java offers the `ArrayList` data structure, which is basically an array that can grow and shrink dynamically. To see why this is useful, let's go back to the problem which we used to introduce arrays:

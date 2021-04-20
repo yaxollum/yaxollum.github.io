@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Recursion
-permalink: /recursion/
 ---
 
 # What is Recursion?
