@@ -1,0 +1,3 @@
+- [Arrays (The Java Tutorials)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html) 
+- [Array Data Structure - GeeksforGeeks](https://www.geeksforgeeks.org/array-data-structure/)
+- [For-each loop in Java - GeeksforGeeks](https://www.geeksforgeeks.org/for-each-loop-in-java/)

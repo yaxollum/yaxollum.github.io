@@ -1,0 +1,3 @@
+- [Binary Search - GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
+- [Searching Algorithms - GeeksforGeeks](https://www.geeksforgeeks.org/searching-algorithms/)
+- [Time complexity - Wikipedia](https://en.wikipedia.org/wiki/Time_complexity)

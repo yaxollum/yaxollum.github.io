@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Searching
+exclude: true
 ---
 
 # Introduction
@@ -68,3 +69,6 @@ In big O notation, the time complexity for binary search is simply written as *O
 The two most commonly used searching algorithms are sequential search and binary search. Sequential search can be used on any list of values. Binary search is more efficient than sequential search, but it can only be used on sorted lists. 
 
 This tutorial also explained the concepts of time complexity and big O notation. It showed why the time complexity of sequential sort is *O(N)* and why the time complexity of binary search is *O(log N)*.
+
+# Sources
+{% include_relative sources/searching.md %}

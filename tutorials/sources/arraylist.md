@@ -1,0 +1,2 @@
+- [ArrayList (Java SE 11 & JDK 11)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/ArrayList.html)
+- [ArrayList in Java - GeeksforGeeks](https://www.geeksforgeeks.org/arraylist-in-java/)

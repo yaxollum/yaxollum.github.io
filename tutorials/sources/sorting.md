@@ -1,0 +1,3 @@
+- [Bubble Sort - GeeksforGeeks](https://www.geeksforgeeks.org/bubble-sort/)
+- [Bubble sort in 2 minutes - YouTube](https://youtu.be/xli_FI7CuzA)
+- [Insertion Sort - GeeksforGeeks](https://www.geeksforgeeks.org/insertion-sort/)

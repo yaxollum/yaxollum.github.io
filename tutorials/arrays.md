@@ -1,9 +1,14 @@
 ---
 layout: default
 title: Arrays
+exclude: true
 ---
 
 An **array** is a list of values of the same type. Arrays allow programmers to access multiple values using one identifier.
+
+![](/img/array.jpg)
+
+(Image from javatutorial.net)
 
 # Example problem
 
@@ -102,3 +107,6 @@ The **foreach** loop eliminates the need for a counter variable; you just specif
 # Conclusion
 
 Arrays are an essential part of Java; without them, you wouldn't be able to efficiently work with large amounts of data. Hopefully this tutorial helped familiarize you with Java arrays. The next tutorial will cover the `ArrayList` data structure, which is similar to an array, except it can be resized dynamically.
+
+# Sources
+{% include_relative sources/arrays.md %}

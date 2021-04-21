@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sorting
+exclude: true
 ---
 
 # Introduction
@@ -8,6 +9,10 @@ title: Sorting
 Sorting is one of the most common operations on a list of values. When you want to display some data in a certain order, or organize it for further processing, you will often want to sort the data.
 
 This tutorial will cover two sorting algorithms: insertion sort and bubble sort. In practice, these algorithms are not used on large datasets due to their low efficiency, but they are useful as learning resources.
+
+![](/img/sorting.jpg)
+
+(Image from wikihow.com)
 
 # Insertion sort
 
@@ -82,3 +87,6 @@ Written in big O notation, the time complexity of bubble sort is *O(N<sup>2</sup
 # Conclusion
 
 This tutorial covered two sorting algorithms: insertion sort and bubble sort. Although these algorithms aren't efficient enough for sorting large datasets in real world programs, they are a great exercise for practicing Java programming and also analyzing the time complexity of an algorithm.
+
+# Sources
+{% include_relative sources/sorting.md %}

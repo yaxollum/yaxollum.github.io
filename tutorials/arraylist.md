@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ArrayList
+exclude: true
 ---
 
 In addition to arrays, Java offers the `ArrayList` data structure, which is basically an array that can grow and shrink dynamically. To see why this is useful, let's go back to the problem which we used to introduce arrays:
@@ -94,3 +95,7 @@ In the function above, we used the following features of `ArrayList`:
 - `isEmpty()` checks if the list is empty
 - `remove(int index)` removes the element at position `index`
 - `set(int index, E element)` sets position `index` of the list to `element`
+
+# Sources
+
+{% include_relative sources/arraylist.md %}

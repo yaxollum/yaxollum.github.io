@@ -1,11 +1,16 @@
 ---
 layout: default
 title: OOP
+exclude: true
 ---
 
 # What is OOP?
 
 Object-oriented programming (OOP) is a way to solve programming problems by representing them as **objects**. An object is a structure defined by a programmer that includes **attributes** and **methods**. Attributes store an object's data as variables. Methods perform actions on an object, which may include modifying the object's attributes.
+
+![](/img/oop.png)
+
+(Image from miltonmarketing.com)
 
 # Example: A to-do list task
 
@@ -83,3 +88,6 @@ The `printTask()` method in the `TestTask` program needs to be modified to use t
 # Conclusion
 
 This concludes my tutorial about object-oriented programming. To summarize, OOP allows you to represent problems as objects. Objects provide an effective way to structure your programs. OOP introduces the concept of encapsulation, where objects hide their implementation details by only allowing access to their data through a public interface. Encapsulation can help prevent bugs, since all accesses to the objects can be checked for correctness and consistency.
+
+# Sources
+{% include_relative sources/oop.md %}

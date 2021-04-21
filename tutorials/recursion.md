@@ -1,11 +1,16 @@
 ---
 layout: default
 title: Recursion
+exclude: true
 ---
 
 # What is Recursion?
 
 **Recursion** is a programming technique where a function calls itself. It allows problems to be broken down into smaller subproblems. Each subproblem can either be broken down further or solved directly.
+
+![](/img/recursion.png)
+
+(Image from theburningmonk.com)
 
 # Example: Factorial
 
@@ -65,3 +70,6 @@ public static int factorial(int n) {
 # Conclusion
 
 In conclusion, recursion allows us to split a problem into multiple smaller problems, whose solutions can be combined to give us the solution to the original problem. This strategy can help us avoid being overwhelmed by a complex problem, and lets us to write an elegant solution that solve the problem in small steps.
+
+# Sources
+{% include_relative sources/recursion.md %}
