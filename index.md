@@ -4,7 +4,7 @@ layout: default
 
 <div markdown="1">
 <img class="round-image" src="/img/me.png" align="right">
-Hello! I'm Peter Ye, a Grade 10 student attending [William Lyon Mackenzie Collegiate Institute](http://wlmac.ca/). I started this portfolio as my final assignment for Mrs. Krasteva's ICS4U class.
+Hello! I'm Peter Ye, a Grade 11 student attending [William Lyon Mackenzie Collegiate Institute](http://wlmac.ca/). I started this portfolio as my final assignment for Mrs. Krasteva's ICS4U class.
 
 I like programming during my free time, and hope to pursue a career in software engineering. I also enjoy sports such as running, biking, and hockey.
 
