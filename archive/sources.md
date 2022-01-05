@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sources 
-permalink: /sources/
+exclude: true
 ---
 
 Here's a list of all the sources which I have referenced when writing the tutorials (the same links are also provided under each tutorial):

@@ -8,7 +8,7 @@ exclude: true
 
 Object-oriented programming (OOP) is a way to solve programming problems by representing them as **objects**. An object is a structure defined by a programmer that includes **attributes** and **methods**. Attributes store an object's data as variables. Methods perform actions on an object, which may include modifying the object's attributes.
 
-![](/img/oop.png)
+![](../img/oop.png)
 
 (Image from miltonmarketing.com)
 

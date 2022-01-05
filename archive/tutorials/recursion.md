@@ -8,7 +8,7 @@ exclude: true
 
 **Recursion** is a programming technique where a function calls itself. It allows problems to be broken down into smaller subproblems. Each subproblem can either be broken down further or solved directly.
 
-![](/img/recursion.png)
+![](../img/recursion.png)
 
 (Image from theburningmonk.com)
 

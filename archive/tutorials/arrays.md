@@ -6,7 +6,7 @@ exclude: true
 
 An **array** is a list of values of the same type. Arrays allow programmers to access multiple values using one identifier.
 
-![](/img/array.jpg)
+![](../img/array.jpg)
 
 (Image from javatutorial.net)
 

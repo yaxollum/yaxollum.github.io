@@ -10,7 +10,7 @@ Sorting is one of the most common operations on a list of values. When you want 
 
 This tutorial will cover two sorting algorithms: insertion sort and bubble sort. In practice, these algorithms are not used on large datasets due to their low efficiency, but they are useful as learning resources.
 
-![](/img/sorting.jpg)
+![](../img/sorting.jpg)
 
 (Image from wikihow.com)
 

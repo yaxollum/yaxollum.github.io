@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects 
-permalink: /projects/
+exclude: true
 ---
 
 I have worked on many projects both in school, and outside of school. This page gives a quick overview of a few of them, and explains the skills which I learned while completing them:
@@ -10,13 +10,13 @@ I have worked on many projects both in school, and outside of school. This page 
 
 For my ICS3U final project, I worked with Paul Lee to recreate the popular Wheel of Fortune game using Java and HSA. I learned more about Java graphics and documenting my code effectively using comments.
 
-![](/img/wof.png)
+![](img/wof.png)
 
 # Megavolt's Escape
 
 [Megavolt's Escape](https://github.com/yaxollum/MegavoltsEscape) is my ICS2O final project, which I wrote using Processing. When creating it, I learned improved my knowledge of the Processing language (e.g. graphics, handling mouse and keyboard events).
 
-![](/img/megavolt.png)
+![](img/megavolt.png)
 
 # Scrape
 
@@ -24,4 +24,4 @@ For my ICS3U final project, I worked with Paul Lee to recreate the popular Wheel
 
 When working on this project, I improved my understanding of object oriented programming and learned how to distribute software packages using Snap and Flatpak.
 
-![](/img/scrape.png)
+![](img/scrape.png)
