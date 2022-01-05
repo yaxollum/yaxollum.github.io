@@ -1,5 +1,6 @@
 ---
 layout: default
+exclude: true
 ---
 
 ## THIS IS AN ARCHIVED PORTFOLIO. LIST OF PAGES:
