@@ -2,4 +2,4 @@
 layout: default
 ---
 
-Hello! [View my archived portfolio](archive).
+Hello! [Don't View my archived portfolio](archive).
