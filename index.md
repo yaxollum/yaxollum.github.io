@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Hello! I'm Peter Ye, a Grade 12 student attending the MaCS program at [William Lyon Mackenzie CI](https://wlmac.ca/).
+Hello! I'm Peter Ye, a 2nd year student studying Computer Science at the University of Waterloo ([here's my résumé](/PeterYe_resume.pdf)).
 
-## Fun stuff
-- **[Calculus of Capacitors](https://paullee.peterye.ca/)** (built with [Paul Lee](https://paullee.dev/) for our Grade 12 Calculus culminating project)
-- **[My portfolio](archive)** (created for my Grade 12 ICS culminating project)
+During my free time, I enjoy working on side projects, which you can all find on [my GitHub profile](https://github.com/yaxollum). Some of my non-academic hobbies include running, hiking, ice skating, and floorball.
