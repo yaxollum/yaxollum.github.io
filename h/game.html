@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>1.00 Challenge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-zinc-950 text-zinc-50 no-select flex items-center justify-center p-4"
+  >
+    <main class="w-full max-w-sm mx-auto">
+      <section
+        class="bg-zinc-900/60 backdrop-blur rounded-3xl shadow-xl p-6 sm:p-8 border border-zinc-800"
+      >
+        <header class="mb-6 flex items-center justify-between">
+          <h1 class="text-xl font-semibold tracking-tight">1.00 Challenge</h1>
+          <div class="flex items-center gap-2">
+            <!-- Current balance -->
+            <div
+              id="scoreBadge"
+              class="text-xs px-2 py-1 rounded-full bg-emerald-600/20 border border-emerald-700 text-emerald-300 font-semibold"
+            >
+              0 pts
+            </div>
+          </div>
+        </header>
+
+        <div
+          class="aspect-square rounded-2xl bg-zinc-900 border border-zinc-800 flex items-center justify-center mb-6"
+        >
+          <div class="text-6xl font-bold tabular-nums" id="display">0.00</div>
+        </div>
+
+        <div class="grid gap-3">
+          <button
+            id="primaryBtn"
+            class="tappable w-full text-lg font-medium py-4 rounded-2xl shadow-inner bg-emerald-500 hover:bg-emerald-400 active:scale-[0.99] text-emerald-950 transition"
+          >
+            Start
+          </button>
+          <button
+            id="resetBtn"
+            class="tappable w-full text-sm py-3 rounded-xl bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 transition hidden"
+          >
+            Try again
+          </button>
+        </div>
+
+        <p class="text-xs text-zinc-400 mt-6 leading-relaxed">
+          Stop the timer at exactly
+          <span class="text-zinc-200 font-semibold">1.00</span> seconds.
+          Rewards: <span class="text-emerald-400 font-medium">420 pts</span> for
+          <span class="font-semibold">1.00</span> exactly;
+          <span class="text-amber-300 font-medium">31 pts</span> for
+          <span class="font-semibold">0.90–0.95</span> s or
+          <span class="font-semibold">1.05–1.10</span> s; otherwise 0.
+        </p>
+
+        <div
+          id="toast"
+          class="pointer-events-none fixed inset-x-0 bottom-4 flex justify-center opacity-0 transition"
+        >
+          <div
+            id="toastText"
+            class="px-4 py-2 rounded-full bg-zinc-100 text-zinc-900 text-sm font-semibold shadow-lg border border-zinc-300"
+          ></div>
+        </div>
+      </section>
+
+      <footer class="mt-6 text-[11px] text-zinc-500 text-center">
+        Tip: Tap anywhere on the big number to start/stop. Press
+        <kbd class="px-1.5 py-0.5 rounded bg-zinc-800 border border-zinc-700"
+          >Space</kbd
+        >
+        too.
+      </footer>
+    </main>
+
+    <!-- Load compiled JS -->
+    <script type="module" src="./dist/game.js"></script>
+  </body>
+</html>
