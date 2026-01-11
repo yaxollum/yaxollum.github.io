@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>smart search</title>
+    <script>
+      function main() {
+        let query = new URLSearchParams(document.location.search).get("q");
+        let new_url = get_redir_url(query);
+        if (new_url != null) {
+          window.location.href = new_url;
+        }
+      }
+      function get_redir_url(query) {
+        if (query != null) {
+          if (query.split(" ").length == 1) {
+            return (
+              "https://en.wiktionary.org/w/index.php?title=Special%3ASearch&search=" +
+              query
+            );
+          } else {
+            return "https://www.google.com/search?udm=14&q=" + query;
+          }
+        }
+      }
+      main();
+    </script>
+  </head>
+  <body>
+    <p>
+      Hello! This search engine automatically redirects a query to either
+      Wiktionary or Google, depending on the contents of the query.
+    </p>
+    <p>
+      You can call the search engine using the syntax
+      "https://peterye.ca/smartsearch.html?q=%s"
+    </p>
+  </body>
+</html>
