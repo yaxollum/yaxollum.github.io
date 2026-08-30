@@ -5,23 +5,39 @@
     <title>smart search</title>
     <script>
       function main() {
-        let query = new URLSearchParams(document.location.search).get("q");
+        let query = get_query();
         let new_url = get_redir_url(query);
         if (new_url != null) {
           window.location.href = new_url;
         }
       }
+      function get_query() {
+        let raw = document.location.hash.slice(1);
+        if (raw == "") {
+          return null;
+        }
+        try {
+          return decodeURIComponent(raw);
+        } catch (e) {
+          return raw;
+        }
+      }
       function get_redir_url(query) {
         if (query != null) {
-          if (query.split(" ").length == 1) {
+          if (query.split(" ").length == 1 && !/[0-9]/.test(query)) {
             return (
               "https://en.wiktionary.org/w/index.php?title=Special%3ASearch&search=" +
-              query
+              encodeURIComponent(lowercase_first(query))
             );
           } else {
-            return "https://www.google.com/search?udm=14&q=" + query;
+            return (
+              "https://www.google.com/search?q=" + encodeURIComponent(query)
+            );
           }
         }
+      }
+      function lowercase_first(query) {
+        return query.charAt(0).toLowerCase() + query.slice(1);
       }
       main();
     </script>
@@ -33,7 +49,11 @@
     </p>
     <p>
       You can call the search engine using the syntax
-      "https://peterye.ca/smartsearch.html?q=%s"
+      "https://peterye.ca/smartsearch.html#%s"
+    </p>
+    <p>
+      The query is kept in the URL fragment, so it is never sent to this
+      website's server.
     </p>
   </body>
 </html>
