@@ -13,14 +13,17 @@
       }
       function get_query() {
         let raw = document.location.hash.slice(1);
-        if (raw == "") {
+        let query;
+        try {
+          query = decodeURIComponent(raw);
+        } catch (e) {
+          query = raw;
+        }
+        query = query.trim();
+        if (query == "") {
           return null;
         }
-        try {
-          return decodeURIComponent(raw);
-        } catch (e) {
-          return raw;
-        }
+        return query;
       }
       function get_redir_url(query) {
         if (query != null) {
